@@ -1,0 +1,33 @@
+.produto {
+	margin-top: 2%;
+	margin-left: 10%;
+	width: 250px;
+	padding: 10px;
+	border: 1px solid #9FCC2E;
+	border-radius: 32px;
+	text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+	margin-left: 20px;
+
+	
+}
+
+.produtos {
+
+	display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#titulo {
+	color: #393736;
+	margin-top: 15px; /* Ajuste a margem superior para posicionar o título abaixo da imagem */
+	margin-bottom: 0; /* Remove a margem inferior */
+	font-size: 20px;
+	
+}
+
+#preco {
+	color: #D36135;
+	font-size: 24px;
+	
+}

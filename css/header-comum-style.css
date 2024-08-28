@@ -1,0 +1,78 @@
+/* configuração padrao */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Poppins, sans-serif; /* Inclui uma fonte genérica de fallback */
+}
+
+/* definindo estrutura padrao do cabeçalho */
+.cabecalho {
+	background-color: #ce6236;
+	font-family: Arial;
+	padding-bottom: 20px;
+	display: flex;
+
+	
+}
+
+
+/* lugar onde vai ficar a logo */
+#logo {
+	font-size: 30px;
+	color: #a9c339;
+	margin-left: 40px;
+	position: relative;
+	top: 15px;
+	width: 70%;
+}
+
+#login, #anuncio, #perfil {
+	background: none;
+	border: solid 2px #9FCC2E;
+	border-radius: 32px;
+	color: white;
+	position: relative;
+	left: 30%;
+	top: 35px;
+	text-decoration: none;
+	margin-bottom:45px;
+	margin-top: 2px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+
+#login-icon {
+	margin-right: 5px;
+}
+
+#anuncio {
+	margin-left: 30px;
+}
+
+#produtos {
+	background-color: #9FCC2E;
+	color: #ce6236;
+	border: solid 2px #9FCC2E;
+	border-radius: 32px;
+	color: white;
+	position: relative;
+	left: 30%;
+	top: 35px;
+	text-decoration: none;
+	margin-bottom:45px;
+	margin-top: 2px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.informacao {
+	margin-left: 40%;
+}
+
+#produtos {
+	margin-right: 10px;
+}

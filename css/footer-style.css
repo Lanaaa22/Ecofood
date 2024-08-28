@@ -1,0 +1,41 @@
+/* configuração padrao */
+* {
+	padding: 0;
+	margin: 0;
+
+}
+
+
+/* definindo estrutura padrao do rodape */
+.rodape {
+	background-color: #ce6236;
+	font-family: Arial;
+	position: absolute;
+	margin-top: 7%;
+ 	width: 100%;
+
+}
+
+
+#titulo-desenvolvedora, #titulo-orientadora {
+	color: #a9c339;
+	padding: 25px 5px 5px 5px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+.rodape p {
+	color: #3b3736;
+	padding-top: 5px;
+	 font-weight: bold;
+	margin-left: 25px;
+	font-size: 17px;
+}
+
+
+#titulo-curso {
+	padding: 80px 5px 15px 5px;
+	margin-left: 20px;
+	color: #a9c339;
+	font-size: 20px;
+}

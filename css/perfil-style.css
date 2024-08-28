@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Poppins;
+}
+
+.titulo {
+
+
+    color: #D36135;
+    font-size: 40px;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perfil {
+    padding: 110px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Largura ajustada */
+    
+    background-color: #fff; /* Fundo branco */
+    border: 1px solid #ddd; /* Borda cinza clara */
+
+}
+
+.item2 {
+    display: flex;
+    white-space: nowrap;
+}
+
+label {
+    font-size: 15px;
+}
+
+.item {
+    padding-left: 10px;
+    color: #D36135;
+}
+
+button, select {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ce6236; /* Laranja */
+    border-radius: 10px; /* Bordas arredondadas */
+    font-size: 14px;
+    background-color: #ffedeb; /* Laranja claro */
+}
+
+button, select {
+    cursor: pointer;
+    font-family: Poppins;
+}
+
+button:hover {
+    background-color: #ce6236;
+    color: white;
+}
+
+button, select {
+    border-radius: 10px !important;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#imagem-produto {
+	width: 531px;
+	height: 428px;
+	border-radius: 20px;
+}
+
+.produto {
+	display: flex;
+	margin-left: 20%;
+	margin-top: 10%;
+
+}
+
+.produto p {
+	font-family: Poppins, Regular;
+	font-size: 30px;
+	margin-left: 10px;
+	margin-left: 10px;
+	white-space: nowrap;
+	margin-top: 10px;
+	color: #393736;
+	
+}
+
+.produto h3 {
+	font-family: Poppins, ExtraBold;
+	font-size: 30px;
+	margin-left: 10px;
+	color: #9FCC2E;
+	position: relative;
+	bottom: 17px;
+	
+}
+
+.grupo {
+	flex-direction: column;
+	
+}
+
+.produto h4 {
+    font-family: Poppins, ExtraBold;
+	font-size: 50px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	color: #D36135;
+	position: relative;
+	bottom: 30px;
+
+}
+
+.descricao {
+	text-align: center;
+	background-color: rgba(217, 217, 217, 0.15);
+	border-radius: 5px;
+	margin: 20%;
+	font-family: Poppins, Regular;
+	position: absolute;
+	bottom: auto;
+	top: 40%;
+}
