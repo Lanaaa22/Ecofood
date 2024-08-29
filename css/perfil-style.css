@@ -17,9 +17,10 @@ form {
     justify-content: center;
     align-items: center;
     padding-left: 20px; 
+    padding: 40px;
 }
 .perfil {
-    padding-left: 100px;
+    padding: 110px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 350px; /* Largura ajustada */
